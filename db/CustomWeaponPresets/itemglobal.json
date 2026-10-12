@@ -9,6 +9,30 @@
         "_tpl": "672e2e75a23a16d355754ef6"
       },
       {
+        "_id": "4f5f4258e81ea156e60ce6e4",
+        "_tpl": "656fa53d94b480b8a500c0e4",
+        "parentId": "675b11167a9841d92bee9617",
+        "slotId": "Front_plate"
+      },
+      {
+        "_id": "36edcec799fbdb91d024ed4a",
+        "_tpl": "656fa53d94b480b8a500c0e4",
+        "parentId": "675b11167a9841d92bee9617",
+        "slotId": "Back_plate"
+      },
+      {
+        "_id": "a4627aaa3d5be75a32e0a7ce",
+        "_tpl": "6557458f83942d705f0c4962",
+        "parentId": "675b11167a9841d92bee9617",
+        "slotId": "Left_side_plate"
+      },
+      {
+        "_id": "a1d747bccd84a26e3b7f0e73",
+        "_tpl": "6557458f83942d705f0c4962",
+        "parentId": "675b11167a9841d92bee9617",
+        "slotId": "Right_side_plate"
+      },
+      {
         "_id": "675b11587bfb4cf6135ee8e1",
         "_tpl": "65733312ca0ca984940a2d53",
         "parentId": "675b11167a9841d92bee9617",
@@ -69,6 +93,30 @@
     {
       "_id": "675b11e7e419221a9a3a7a98",
       "_tpl": "672e2e75be2ea9998a388b8b"
+    },
+    {
+      "_id": "127958d8ceafd888c049a6ee",
+      "_tpl": "656fa53d94b480b8a500c0e4",
+      "parentId": "675b11e7e419221a9a3a7a98",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "94c7628f71302bbac40a8d6e",
+      "_tpl": "656fa53d94b480b8a500c0e4",
+      "parentId": "675b11e7e419221a9a3a7a98",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "9d679def6b0d5633f64a0008",
+      "_tpl": "6557458f83942d705f0c4962",
+      "parentId": "675b11e7e419221a9a3a7a98",
+      "slotId": "Left_side_plate"
+    },
+    {
+      "_id": "98de92ba67b975299ac7c76f",
+      "_tpl": "6557458f83942d705f0c4962",
+      "parentId": "675b11e7e419221a9a3a7a98",
+      "slotId": "Right_side_plate"
     },
     {
       "_id": "675b1212efc044a2bc167a71",
@@ -197,6 +245,30 @@
       "_tpl": "672e2e75dbf780f902fd6d68"
     },
     {
+      "_id": "3f9767b54c2e6bc225da63ed",
+      "_tpl": "656fae5f7c2d57afe200c0d7",
+      "parentId": "675b160bd7a342b81e5974c2",
+      "slotId": "front_plate"
+    },
+    {
+      "_id": "5d9e9e0bfa829566a74fe50e",
+      "_tpl": "656fae5f7c2d57afe200c0d7",
+      "parentId": "675b160bd7a342b81e5974c2",
+      "slotId": "back_plate"
+    },
+    {
+      "_id": "c0614d96f13d0800655141f4",
+      "_tpl": "6557458f83942d705f0c4962",
+      "parentId": "675b160bd7a342b81e5974c2",
+      "slotId": "left_side_plate"
+    },
+    {
+      "_id": "dd1f29397a93c4ef4715a4f3",
+      "_tpl": "6557458f83942d705f0c4962",
+      "parentId": "675b160bd7a342b81e5974c2",
+      "slotId": "right_side_plate"
+    },
+    {
       "_id": "675b16131f6284d795ae03b7",
       "_tpl": "6575ef599c7cad336508e453",
       "parentId": "675b160bd7a342b81e5974c2",
@@ -233,6 +305,30 @@
     {
       "_id": "675b163c92d5e7814a60bf23",
       "_tpl": "672e2e758c2bcbf1b2421359"
+    },
+    {
+      "_id": "5eae68f063a92ea1e1a1e2f9",
+      "_tpl": "656fae5f7c2d57afe200c0d7",
+      "parentId": "675b163c92d5e7814a60bf23",
+      "slotId": "front_plate"
+    },
+    {
+      "_id": "80f14c8590996e371aa30765",
+      "_tpl": "656fae5f7c2d57afe200c0d7",
+      "parentId": "675b163c92d5e7814a60bf23",
+      "slotId": "back_plate"
+    },
+    {
+      "_id": "0b83f3c76797db98fdf54cb6",
+      "_tpl": "6557458f83942d705f0c4962",
+      "parentId": "675b163c92d5e7814a60bf23",
+      "slotId": "left_side_plate"
+    },
+    {
+      "_id": "3d40836db0e3c1a874c1e491",
+      "_tpl": "6557458f83942d705f0c4962",
+      "parentId": "675b163c92d5e7814a60bf23",
+      "slotId": "right_side_plate"
     },
     {
       "_id": "675b1643a7e2195c80d36f41",
@@ -273,6 +369,18 @@
       "_tpl": "672e2e755afaba52a4af5e45"
     },
     {
+      "_id": "6ad90a23b245d4ba308d675d",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "675b166c81e5a2479d30bf62",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "ceb9d26aba0c16307a5650ea",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "675b166c81e5a2479d30bf62",
+      "slotId": "Back_plate"
+    },
+    {
       "_id": "675b1673d2a8416e90fc5b37",
       "_tpl": "6570e83223c1f638ef0b0ede",
       "parentId": "675b166c81e5a2479d30bf62",
@@ -303,6 +411,18 @@
     {
       "_id": "675b1695d83f2147a60ce9b2",
       "_tpl": "672e2e75c5ba9aeedbced57d"
+    },
+    {
+      "_id": "ada7e623dd0e15a8db856911",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "675b1695d83f2147a60ce9b2",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "e09d0e26a18106671864b6c0",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "675b1695d83f2147a60ce9b2",
+      "slotId": "Back_plate"
     },
     {
       "_id": "675b169c31e8b5720fd46a93",
@@ -337,6 +457,18 @@
       "_tpl": "672e2e75ed6ad7cc5028734f"
     },
     {
+      "_id": "8dab8b182184c7e75b916c1e",
+      "_tpl": "656fae5f7c2d57afe200c0d7",
+      "parentId": "675b16be83d5a2479e10cf62",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "0d224990f8b2a109c48b925b",
+      "_tpl": "656fae5f7c2d57afe200c0d7",
+      "parentId": "675b16be83d5a2479e10cf62",
+      "slotId": "Back_plate"
+    },
+    {
       "_id": "675b16c531f8e6920ad47b83",
       "_tpl": "6575bc88c6700bd6b40e8a57",
       "parentId": "675b16be83d5a2479e10cf62",
@@ -361,6 +493,18 @@
     {
       "_id": "675b16e083d5a2479c10ef63",
       "_tpl": "672e2e75afb25b57bd1d1455"
+    },
+    {
+      "_id": "14fab5d201f20b2fde18475f",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "675b16e083d5a2479c10ef63",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "572d878da66a8744f15593fb",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "675b16e083d5a2479c10ef63",
+      "slotId": "Back_plate"
     },
     {
       "_id": "675b16e731f8c6920ad54b82",
@@ -395,6 +539,18 @@
       "_tpl": "672e2e7531ffa75ea676c3ea"
     },
     {
+      "_id": "1967909448e20e0e7b07ed1e",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "675b170983d5a2479e10cf64",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "79685b4f11a824045fba864c",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "675b170983d5a2479e10cf64",
+      "slotId": "Back_plate"
+    },
+    {
       "_id": "675b171031f8c6920ad54b83",
       "_tpl": "6570e83223c1f638ef0b0ede",
       "parentId": "675b170983d5a2479e10cf64",
@@ -427,6 +583,18 @@
       "_tpl": "672e2e75fa61ef193bdbd7e6"
     },
     {
+      "_id": "bc4c4ef3bb9fb87e70d6a931",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "675b173283d5a2479e10cf65",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "f76c4abf579da5463b445e96",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "675b173283d5a2479e10cf65",
+      "slotId": "Back_plate"
+    },
+    {
       "_id": "675b173931f8c6920ad54b84",
       "_tpl": "6570e83223c1f638ef0b0ede",
       "parentId": "675b173283d5a2479e10cf65",
@@ -457,6 +625,18 @@
     {
       "_id": "675b175b83d5a2479e10cf66",
       "_tpl": "67b8d6cd220640e6846aed85"
+    },
+    {
+      "_id": "63ca81c28aed26ea3b61b9e2",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "675b175b83d5a2479e10cf66",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "83fb7aa9175fa825ff851568",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "parentId": "675b175b83d5a2479e10cf66",
+      "slotId": "Back_plate"
     },
     {
       "_id": "675b176231f8c6920ad54b85",
