@@ -1,1 +1,1915 @@
-{}
+{
+  "668aacd1dee3de3ce276fdef": {
+    "QuestName": "Taped Up",
+    "_id": "668aacd1dee3de3ce276fdef",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_1 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e31c3262af62a8eb157cd",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["57347c1124597737fb1379e3"],
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e31d7701987cf15698b30",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5734795124597738002c6176"],
+          "value": 3,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e31eeb489152e7707cb72",
+          "index": 0,
+          "isEncoded": false,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_1 declinePlayerMessage",
+    "description": "painter_1 description",
+    "failMessageText": "painter_1 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_1_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "painter_1 name",
+    "note": "painter_1 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "672e320f0ed0c138d60be692",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 2500
+        },
+        {
+          "id": "672e321a311745b947c86297",
+          "index": 1,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "findInRaid": true,
+          "id": "672e322347a9f6b4122f26c1",
+          "index": 2,
+          "items": [
+            {
+              "_id": "672e322618e2333119497dc9",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 21000
+              }
+            }
+          ],
+          "target": "672e322618e2333119497dc9",
+          "type": "Item",
+          "unknown": false,
+          "value": 20500
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_1 startedMessageText",
+    "status": 0,
+    "successMessageText": "painter_1 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "PickUp"
+  },
+  "668aace8ff74aecfbcfbe9e6": {
+    "QuestName": "Topographics",
+    "_id": "668aace8ff74aecfbcfbe9e6",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_2 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e323797a187aabc88ca4a",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["62a0a124de7ac81993580542"],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e324934b8ff780512ec50",
+          "index": 0,
+          "parentId": "",
+          "status": [4],
+          "target": "668aacd1dee3de3ce276fdef",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_2 declinePlayerMessage",
+    "description": "painter_2 description",
+    "failMessageText": "painter_2 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_2_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "painter_2 name",
+    "note": "painter_2 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "672e3258a638ea171fc6a0b6",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 6500
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "672e325a9f4a5085cc20a7ec",
+          "index": 1,
+          "items": [
+            {
+              "_id": "672e325c7c1121e5395d35cd",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 35500
+              }
+            }
+          ],
+          "target": "672e325c7c1121e5395d35cd",
+          "type": "Item",
+          "unknown": false,
+          "value": 35500
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "672e3263804e6e913647b594",
+          "index": 2,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_2 description",
+    "status": 0,
+    "successMessageText": "painter_2 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "PickUp"
+  },
+  "668aad1d97c0b19780ebf9c2": {
+    "QuestName": "Dig Deep",
+    "_id": "668aad1d97c0b19780ebf9c2",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_3 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "672e326e957ba4b27be8a570",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "672e327ba37230a48fc86c5f",
+                "target": ["bigmap"]
+              }
+            ],
+            "id": "672e3285d8846577b4de301c"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e3295e4287b00f37700c1",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e32a15f33429ec9dd1864",
+          "index": 0,
+          "parentId": "",
+          "status": [4],
+          "target": "668aace8ff74aecfbcfbe9e6",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_3 declinePlayerMessage",
+    "description": "painter_3 description",
+    "failMessageText": "painter_3 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_3_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "56f40101d2720b2a4d8b45d6",
+    "name": "painter_3 name",
+    "note": "painter_3 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "672e32ac9fc5610c6495993a",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 6500
+        },
+        {
+          "id": "672e32aeaa0ec3f416123e5e",
+          "index": 1,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "findInRaid": true,
+          "id": "672e32affeac239b74d81f71",
+          "index": 2,
+          "items": [
+            {
+              "_id": "672e32b1b37629655d837d0a",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 39000
+              }
+            }
+          ],
+          "target": "672e32b1b37629655d837d0a",
+          "type": "Item",
+          "unknown": false,
+          "value": 39500
+        },
+        {
+          "findInRaid": true,
+          "id": "672e32b93e3c3479564195ec",
+          "index": 3,
+          "items": [
+            {
+              "_id": "672e32bb2333f51f9c6c08c4",
+              "_tpl": "5d403f9186f7743cac3f229b",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "672e32bb2333f51f9c6c08c4",
+          "type": "Item",
+          "unknown": false,
+          "value": 3
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_3 description",
+    "status": 0,
+    "successMessageText": "painter_3 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "Elimination"
+  },
+  "668aad2b0f0c52ff9b51625d": {
+    "QuestName": "Workshop Refurbishment",
+    "_id": "668aad2b0f0c52ff9b51625d",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_4 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e32c9be76a4ab7682ece9",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["590c2e1186f77425357b6124"],
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e32d8386445826a2adfee",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["57347c5b245977448d35f6e1"],
+          "value": "3",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e32e7eb649d0132dfc0db",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["57347c77245977448d35f6e2"],
+          "value": "3",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e32f318a4d0481537902d",
+          "index": 0,
+          "parentId": "",
+          "status": [4],
+          "target": "668aad1d97c0b19780ebf9c2",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_4 declinePlayerMessage",
+    "description": "painter_4 description",
+    "failMessageText": "painter_4 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_4_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "painter_4 name",
+    "note": "painter_4 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "672e32f713d2c32fd0ab716b",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 2500
+        },
+        {
+          "findInRaid": true,
+          "id": "672e32f8f7a6c399a761a62f",
+          "index": 1,
+          "items": [
+            {
+              "_id": "672e32f908b40ed46e9aa44a",
+              "_tpl": "5c05308086f7746b2101e90b",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "672e32f908b40ed46e9aa44a",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        },
+        {
+          "findInRaid": true,
+          "id": "672e322347a9f6b4122f26c1",
+          "index": 2,
+          "items": [
+            {
+              "_id": "672e322618e2333119497dc9",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 31000
+              }
+            }
+          ],
+          "target": "672e322618e2333119497dc9",
+          "type": "Item",
+          "unknown": false,
+          "value": 30500
+        },
+        {
+          "id": "672e32fe9bd3504432668960",
+          "index": 3,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_4 startedMessageText",
+    "status": 0,
+    "successMessageText": "painter_4 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "PickUp"
+  },
+  "668aad328a1b4ad3818169cf": {
+    "QuestName": "Radio Silence",
+    "_id": "668aad328a1b4ad3818169cf",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_5 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e33074cd02462a61760a2",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5c052f6886f7746b1e3db148"],
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e33139f6ec10a5d314e75",
+          "index": 0,
+          "parentId": "",
+          "status": [4],
+          "target": "668aad2b0f0c52ff9b51625d",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_5 declinePlayerMessage",
+    "description": "painter_5 description",
+    "failMessageText": "painter_5 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_5_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "painter_5 name",
+    "note": "painter_5 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "672e331a18ecf91f7135cfbc",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 2500
+        },
+        {
+          "findInRaid": true,
+          "id": "672e331ca9ec1a9b0ff50961",
+          "index": 1,
+          "items": [
+            {
+              "_id": "672e331de1cb340521837424",
+              "_tpl": "5e2aedd986f7746d404f3aa4",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "672e331de1cb340521837424",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        },
+        {
+          "findInRaid": true,
+          "id": "672e33236d76f0037ade6462",
+          "index": 2,
+          "items": [
+            {
+              "_id": "672e332433dd94c340abaf64",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 51000
+              }
+            }
+          ],
+          "target": "672e332433dd94c340abaf64",
+          "type": "Item",
+          "unknown": false,
+          "value": 50500
+        },
+        {
+          "id": "672e332b978a9cce93f8aba0",
+          "index": 3,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_5 startedMessageText",
+    "status": 0,
+    "successMessageText": "painter_5 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "PickUp"
+  },
+  "668aad49a21e4d37c83d4ffc": {
+    "QuestName": "Dangerous Waters",
+    "_id": "668aad49a21e4d37c83d4ffc",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_6 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "672e3337719c01963ea93651",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "id": "672e333bec632da64d734e2d",
+                "target": ["Shoreline"]
+              }
+            ],
+            "id": "672e33405decb9faa41db3ca"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e334a39064994fc3bd86f",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "15",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e33594fd1e90a00dc344e",
+          "index": 0,
+          "parentId": "",
+          "status": [4],
+          "target": "668aad328a1b4ad3818169cf",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_6 declinePlayerMessage",
+    "description": "painter_6 description",
+    "failMessageText": "painter_6 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_6_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e554d2720bac5b8b456e",
+    "name": "painter_6 name",
+    "note": "painter_6 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "672e335d2f242b0ba98b196d",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 6500
+        },
+        {
+          "id": "672e33605cc6a53650006991",
+          "index": 1,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.04
+        },
+        {
+          "findInRaid": true,
+          "id": "672e3362123bcde9f627012d",
+          "index": 2,
+          "items": [
+            {
+              "_id": "672e3363e49a3c871e52b94c",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 80000
+              }
+            }
+          ],
+          "target": "672e3363e49a3c871e52b94c",
+          "type": "Item",
+          "unknown": false,
+          "value": 80000
+        },
+        {
+          "findInRaid": true,
+          "id": "672e33688da7b757361b0fc3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "672e33699042e3aae2094982",
+              "_tpl": "5d1b376e86f774252519444e",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "672e33699042e3aae2094982",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_6 description",
+    "status": 0,
+    "successMessageText": "painter_6 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "Elimination"
+  },
+  "668aad3c3ff8f5b258e3a65b": {
+    "QuestName": "Born Free",
+    "_id": "668aad3c3ff8f5b258e3a65b",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_7 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e33753bc2b4d394df066d",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["590c5a7286f7747884343aea"],
+          "value": "7",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e338893682a2593697a37",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5d6fc78386f77449d825f9dc"],
+          "value": "7",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e339460bf295e1f0771b5",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5d6fc87386f77449db3db94e"],
+          "value": "7",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e339f6a58d92a168c9845",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["59e366c186f7741778269d85"],
+          "value": "7",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e33a8cd1e9476551db9ea",
+          "index": 0,
+          "parentId": "",
+          "status": [4],
+          "target": "668aad49a21e4d37c83d4ffc",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_7 declinePlayerMessage",
+    "description": "painter_7 description",
+    "failMessageText": "painter_7 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_7_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "painter_7 name",
+    "note": "painter_7 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "672e33acba7dc114726c9ccc",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 2500
+        },
+        {
+          "findInRaid": true,
+          "id": "672e33ad3e0a2d403e1ae5b4",
+          "index": 1,
+          "items": [
+            {
+              "_id": "672e33ad2bd6d0ddc2311ea2",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 110000
+              }
+            }
+          ],
+          "target": "672e33ad2bd6d0ddc2311ea2",
+          "type": "Item",
+          "unknown": false,
+          "value": 110000
+        },
+    {  
+  "id": "672e33b369515ce7af7df6ff",
+  "index": 2,
+  "type": "AssortmentUnlock",
+  "traderId": "668aaff35fd574b6dcc4a686",
+  "loyaltyLevel": 4,
+  "target": "6a6ed375fbb286cf81a998d6",
+  "items": [
+    {
+      "_id": "6a6ed375fbb286cf81a998d6",
+      "_tpl": "5c0a840b86f7742ffa4f2482",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999999,
+        "BuyRestrictionMax": 1,
+        "BuyRestrictionCurrent": 0
+      }
+    }
+  ]
+},
+        {
+          "id": "672e33b879e2d665bfa01bcc",
+          "index": 3,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.04
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_7 startedMessageText",
+    "status": 0,
+    "successMessageText": "painter_7 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "PickUp"
+  },
+  "668c18eb12542b3c3ff6e20f": {
+    "QuestName": "Shrink Wrap",
+    "_id": "668c18eb12542b3c3ff6e20f",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_8 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "672e33c211d2133aed1ccd66",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "672e33c4c2f8b0ce34a78768"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "672e33c986ff5b896eb503cd",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 48,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6748f226384e5edc1e86a07a",
+          "index": 0,
+          "parentId": "",
+          "status": [4],
+          "target": "668aad3c3ff8f5b258e3a65b",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_8 declinePlayerMessage",
+    "description": "painter_8 description",
+    "failMessageText": "painter_8 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_8_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "painter_8 name",
+    "note": "painter_8 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "672e33d7328feb52bd28d5d9",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 6500
+        },
+        {
+          "id": "672e33d832bdd4504eee296f",
+          "index": 1,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.04
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "672e33da4a034853ff35fdbb",
+          "index": 2,
+          "items": [
+            {
+              "_id": "672e33db64495f03c3642ee2",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 160000
+              }
+            }
+          ],
+          "target": "672e33db64495f03c3642ee2",
+          "type": "Item",
+          "unknown": false,
+          "value": 160000
+        },
+        {
+  "id": "672e33e4c314174fd9f9dbb2",
+  "index": 3,
+  "items": [
+    {
+      "_id": "7813d3289b65785d31d3dad6",
+      "_tpl": "54527ac44bdc2d36668b4567",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999999,
+        "BuyRestrictionMax": 150,
+        "BuyRestrictionCurrent": 0
+      }
+    }
+  ],
+  "loyaltyLevel": 3,
+  "target": "7813d3289b65785d31d3dad6",
+  "traderId": "668aaff35fd574b6dcc4a686",
+  "unknown": false,
+  "type": "AssortmentUnlock"
+},
+{
+  "id": "672e33e5031e7626d247b917",
+  "index": 4,
+  "items": [
+    {
+      "_id": "7813d3281029dcf0f0e99c4d",
+      "_tpl": "5a6086ea4f39f99cd479502f",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999999,
+        "BuyRestrictionMax": 80,
+        "BuyRestrictionCurrent": 0
+      }
+    }
+  ],
+  "loyaltyLevel": 4,
+  "target": "7813d3281029dcf0f0e99c4d",
+  "traderId": "668aaff35fd574b6dcc4a686",
+  "unknown": false,
+  "type": "AssortmentUnlock"
+}
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_8 description",
+    "status": 0,
+    "successMessageText": "painter_8 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "Elimination"
+  },
+  "6848f88e54cef2b50b3a2589": {
+    "QuestName": "The Dark Knight",
+    "_id": "6848f88e54cef2b50b3a2589",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_9 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6848f9c9d567f37e6b729842",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "672e2e75d78fe9e90c8cb393"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6848f9de85ccce5e3a78c9e9",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "672e2e75d78fe9e90c8cb393"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "6848f9d601437caa3ccc3219",
+              "target": "6848f9c9d567f37e6b729842"
+            }
+          ]
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6848f9abb211398c8b963de3",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6848f99fb33e3598fa83290e"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6848f99d34b6c6122c735e05",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 20,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6748f226384e5edc1e86a07a",
+          "index": 0,
+          "parentId": "",
+          "status": [4],
+          "target": "668aad3c3ff8f5b258e3a65b",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_9 declinePlayerMessage",
+    "description": "painter_9 description",
+    "failMessageText": "painter_9 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_9_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "painter_9 name",
+    "note": "painter_9 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "6848fa5d68d1d8955a6c7f96",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 6500
+        },
+        {
+          "id": "6848fa6076bcbe29939de36f",
+          "index": 1,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "6848fa65045c1bfb2e940527",
+          "index": 2,
+          "items": [
+            {
+              "_id": "6848fa67d339363e7399c514",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 2800
+              }
+            }
+          ],
+          "target": "6848fa67d339363e7399c514",
+          "type": "Item",
+          "unknown": false,
+          "value": 2800
+        },
+        {
+          "findInRaid": true,
+          "id": "68490d231de70ae787730b78",
+          "index": 3,
+          "items": [
+            {
+              "_id": "68490d2509c2895bf61f44e1",
+              "_tpl": "5c052f6886f7746b1e3db148",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "68490d2509c2895bf61f44e1",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_9 description",
+    "status": 0,
+    "successMessageText": "painter_9 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "Elimination"
+  },
+"684dcdde28c416fb7410b974": {
+  "QuestName": "The Final Touch",
+  "_id": "684dcdde28c416fb7410b974",
+  "acceptanceAndFinishingSource": "eft",
+  "arenaLocations": [],
+  "canShowNotificationsInGame": true,
+  "changeQuestMessageText": "painter_10 changeQuestMessageText",
+  "conditions": {
+    "AvailableForFinish": [
+      {
+        "conditionType": "HandoverItem",
+        "dogtagLevel": 0,
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "id": "684dce0db74a157e696d440c",
+        "index": 0,
+        "isEncoded": false,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "onlyFoundInRaid": true,
+        "parentId": "",
+        "target": [
+          "59fafb5d86f774067a6f2084"
+        ],
+        "value": 4,
+        "visibilityConditions": []
+      },
+      {
+        "conditionType": "HandoverItem",
+        "dogtagLevel": 0,
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "id": "684de44841a695c11db3996c",
+        "index": 1,
+        "isEncoded": false,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "onlyFoundInRaid": true,
+        "parentId": "",
+        "target": [
+          "61bf7b6302b3924be92fa8c3"
+        ],
+        "value": 10,
+        "visibilityConditions": []
+      },
+      {
+        "conditionType": "HandoverItem",
+        "dogtagLevel": 0,
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "id": "684de575d34628e3dfc940ff",
+        "index": 2,
+        "isEncoded": false,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "onlyFoundInRaid": true,
+        "parentId": "",
+        "target": [
+          "590a3b0486f7743954552bdb"
+        ],
+        "value": 2,
+        "visibilityConditions": []
+      },
+      {
+        "conditionType": "HandoverItem",
+        "dogtagLevel": 0,
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "id": "684de443e988e5c59b5ec688",
+        "index": 3,
+        "isEncoded": false,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "onlyFoundInRaid": true,
+        "parentId": "",
+        "target": [
+          "5d1b2fa286f77425227d1674"
+        ],
+        "value": 1,
+        "visibilityConditions": []
+      },
+      {
+        "conditionType": "HandoverItem",
+        "dogtagLevel": 0,
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "id": "684de44575288597828a1728",
+        "index": 4,
+        "isEncoded": false,
+        "maxDurability": 100,
+        "minDurability": 0,
+        "onlyFoundInRaid": true,
+        "parentId": "",
+        "target": [
+          "6389c85357baa773a825b356"
+        ],
+        "value": 1,
+        "visibilityConditions": []
+      }
+    ],
+    "AvailableForStart": [
+      {
+        "availableAfter": 0,
+        "conditionType": "Quest",
+        "dispersion": 0,
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "id": "684dceb1a57b9bab0b8d266d",
+        "index": 0,
+        "parentId": "",
+        "status": [
+          4
+        ],
+        "target": "6848f88e54cef2b50b3a2589",
+        "visibilityConditions": []
+      }
+    ],
+    "Fail": []
+  },
+  "declinePlayerMessage": "painter_10 declinePlayerMessage",
+  "description": "painter_10 description",
+  "failMessageText": "painter_10 failMessageText",
+  "gameModes": [],
+  "image": "/files/quest/icon/painter_10_thumbnail.png",
+  "instantComplete": false,
+  "isKey": false,
+  "location": "any",
+  "name": "painter_10 name",
+  "note": "painter_10 note",
+  "progressSource": "eft",
+  "rankingModes": [],
+  "restartable": false,
+  "rewards": {
+    "Fail": [],
+    "Started": [],
+    "Success": [
+      {
+        "id": "684dce3088036780dd7c7b28",
+        "index": 0,
+        "type": "Experience",
+        "unknown": false,
+        "value": 20000
+      },
+      {
+        "id": "684dce3863f0eadbf9660a58",
+        "index": 1,
+        "target": "668aaff35fd574b6dcc4a686",
+        "type": "TraderStanding",
+        "unknown": false,
+        "value": 0.04
+      },
+      {
+        "findInRaid": false,
+        "id": "684dcf692a8dc96f91a487d2",
+        "index": 2,
+        "items": [
+          {
+            "_id": "684dcf60f383208942ac6142",
+            "_tpl": "59faff1d86f7746c51718c9c",
+            "upd": {
+              "StackObjectsCount": 3
+            }
+          }
+        ],
+        "target": "684dcf60f383208942ac6142",
+        "type": "Item",
+        "unknown": false,
+        "value": 3
+      }
+    ]
+  },
+  "secretQuest": false,
+  "side": "Pmc",
+  "startedMessageText": "painter_10 startedMessageText",
+  "status": 0,
+  "successMessageText": "painter_10 successMessageText",
+  "traderId": "668aaff35fd574b6dcc4a686",
+  "type": "PickUp"
+},
+     "684f091cc78564e2180a2eb6": {
+    "QuestName": "Resistance Is Futile",
+    "_id": "684f091cc78564e2180a2eb6",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_11 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "baseAccuracy": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "conditionType": "WeaponAssembly",
+          "containsItems": [
+            "59d6272486f77466146386ff",
+            "5cf656f2d7f00c06585fb6eb",
+            "6087e663132d4d12c81fd96b",
+            "6761779c48fa5c377e06fc3f",
+            "57486e672459770abd687134"
+          ],
+          "durability": {
+            "compareMethod": ">=",
+            "value": 80
+          },
+          "dynamicLocale": false,
+          "effectiveDistance": {
+            "compareMethod": ">=",
+            "value": 200
+          },
+          "emptyTacticalSlot": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "ergonomics": {
+            "compareMethod": ">=",
+            "value": 65
+          },
+          "globalQuestCounterId": "",
+          "hasItemFromCategory": [],
+          "height": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "id": "684f142d6734c9fb25ceeecb",
+          "index": 0,
+          "magazineCapacity": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "muzzleVelocity": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "parentId": "",
+          "recoil": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "target": [
+            "5ac66d2e5acfc43b321d4b53"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "weight": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "width": {
+            "compareMethod": ">=",
+            "value": 0
+          }
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684f0a8a5645810369b816be",
+          "index": 0,
+          "isEncoded": false,
+          "parentId": "",
+          "value": 20,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_11 declinePlayerMessage",
+    "description": "painter_11 description",
+    "failMessageText": "painter_11 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_11_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "painter_11 name",
+    "note": "painter_11 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "684f0fb47cd29e2d9c60bde0",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 4500
+        },
+        {
+          "id": "684f0fb5cedfe173a2672c07",
+          "index": 1,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "findInRaid": true,
+          "id": "684f0fbd8e2ba5e30d21fb47",
+          "index": 2,
+          "items": [
+            {
+              "_id": "684f0fbe29addf223dce8159",
+              "_tpl": "569668774bdc2da2298b4568",
+              "upd": {
+                "StackObjectsCount": 2000
+              }
+            }
+          ],
+          "target": "684f0fbe29addf223dce8159",
+          "type": "Item",
+          "unknown": false,
+          "value": 2000
+        },
+        {
+          "findInRaid": true,
+          "id": "684f108bccc2cc7fc44acb8c",
+          "index": 3,
+          "items": [
+            {
+              "_id": "684f1093f3fd04289157596c",
+              "_tpl": "664a5480bfcc521bad3192ca",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "684f1093f3fd04289157596c",
+          "type": "Item",
+          "unknown": true,
+          "value": 1
+        },
+        {
+          "findInRaid": true,
+          "id": "684f1212314e81c1732445fd",
+          "index": 4,
+          "items": [
+            {
+              "_id": "684f1214153cba1ee2ac5c9f",
+              "_tpl": "6759bb94b8913ff13e049669",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "684f1214153cba1ee2ac5c9f",
+          "type": "Item",
+          "unknown": true,
+          "value": 1
+        },
+        {
+          "findInRaid": true,
+          "id": "684f1271759e8e2c7453028d",
+          "index": 5,
+          "items": [
+            {
+              "_id": "684f126d3659ffb47b949562",
+              "_tpl": "6759e07e4ff23436160d7fed",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "684f126d3659ffb47b949562",
+          "type": "Item",
+          "unknown": true,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_11 startedMessageText",
+    "status": 0,
+    "successMessageText": "painter_11 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "WeaponAssembly"
+  },
+ "685862c625c24fd649b370c6": {
+  "QuestName": "Moscovium",
+  "_id": "685862c625c24fd649b370c6",
+  "acceptanceAndFinishingSource": "eft",
+  "arenaLocations": [],
+  "canShowNotificationsInGame": true,
+  "changeQuestMessageText": "painter_12 changeQuestMessageText",
+  "conditions": {
+    "AvailableForFinish": [
+      {
+        "conditionType": "PlaceBeacon",
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "id": "68586394ca1d107631558586",
+        "index": 0,
+        "parentId": "",
+        "plantTime": 20,
+        "target": [
+          "5ac78a9b86f7741cca0bbd8d"
+        ],
+        "value": 1,
+        "visibilityConditions": [],
+        "zoneId": "gazel"
+      },
+      {
+        "completeInSeconds": 0,
+        "conditionType": "CounterCreator",
+        "counter": {
+          "conditions": [
+            {
+              "conditionType": "ExitStatus",
+              "dynamicLocale": false,
+              "id": "68586a67f20757f5b8193c68",
+              "status": [
+                "Survived",
+                "Runner"
+              ]
+            },
+            {
+              "conditionType": "Location",
+              "dynamicLocale": false,
+              "id": "68586a6440e59aceb7b38d61",
+              "target": [
+                "bigmap"
+              ]
+            }
+          ],
+          "id": "68586a5b2b5553a919b2938b"
+        },
+        "doNotResetIfCounterCompleted": false,
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "id": "68586a4d4ca5206d3e5b4c6b",
+        "index": 1,
+        "isNecessary": false,
+        "isResetOnConditionFailed": false,
+        "oneSessionOnly": false,
+        "parentId": "",
+        "type": "Completion",
+        "value": 1,
+        "visibilityConditions": [
+          {
+            "conditionType": "CompleteCondition",
+            "id": "68586a3b261431201ee4d775",
+            "target": "68586394ca1d107631558586"
+          }
+        ]
+      }
+    ],
+    "AvailableForStart": [
+      {
+        "availableAfter": 0,
+        "conditionType": "Quest",
+        "dispersion": 0,
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "id": "68586390dc03d3e7cd5a615c",
+        "index": 0,
+        "parentId": "",
+        "status": [
+          4
+        ],
+        "target": "684f091cc78564e2180a2eb6",
+        "visibilityConditions": []
+      }
+    ],
+    "Fail": []
+  },
+  "declinePlayerMessage": "painter_12 declinePlayerMessage",
+  "description": "painter_12 description",
+  "failMessageText": "painter_12 failMessageText",
+  "gameModes": [],
+  "image": "/files/quest/icon/painter_12_thumbnail.png",
+  "instantComplete": false,
+  "isKey": false,
+  "location": "any",
+  "name": "painter_12 name",
+  "note": "painter_12 note",
+  "progressSource": "eft",
+  "rankingModes": [],
+  "restartable": false,
+  "rewards": {
+    "Fail": [],
+    "Started": [],
+    "Success": [
+      {
+        "id": "6858639946a19bb464a77089",
+        "index": 0,
+        "type": "Experience",
+        "unknown": false,
+        "value": 2500
+      },
+      {
+        "findInRaid": true,
+        "id": "6858691de15a3e7d91f7afb2",
+        "index": 1,
+        "items": [
+          {
+            "_id": "6a29c58fa176a70923197538",
+            "_tpl": "6a29b818d3399708f0c22b1e",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "target": "6a29c58fa176a70923197538",
+        "type": "Item",
+        "unknown": true,
+        "value": 1
+      },
+      {
+        "findInRaid": true,
+        "id": "685863a375ba1c7d9bc455ef",
+        "index": 2,
+        "items": [
+          {
+            "_id": "685863a46991e53a6c97a7c9",
+            "_tpl": "5449016a4bdc2d6f028b456f",
+            "upd": {
+              "StackObjectsCount": 31000
+            }
+          }
+        ],
+        "target": "685863a46991e53a6c97a7c9",
+        "type": "Item",
+        "unknown": false,
+        "value": 30500
+      },
+      {
+        "id": "685863a9a51f4be475e99868",
+        "index": 3,
+        "target": "668aaff35fd574b6dcc4a686",
+        "type": "TraderStanding",
+        "unknown": false,
+        "value": 0.03
+      }
+    ]
+  },
+  "secretQuest": false,
+  "side": "Pmc",
+  "startedMessageText": "painter_12 startedMessageText",
+  "status": 0,
+  "successMessageText": "painter_12 successMessageText",
+  "traderId": "668aaff35fd574b6dcc4a686",
+  "type": "Completion"
+}
+}

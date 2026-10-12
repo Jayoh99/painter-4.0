@@ -1,82 +1,77 @@
-﻿using SPTarkov.DI.Annotations;
+using System.Reflection;
+using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
-using SPTarkov.Server.Core.Helpers;
+using SPTarkov.Server.Core.Helpers.Server;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Models.Spt.Mod;
+using SPTarkov.Common.Models.Logging;
 using SPTarkov.Server.Core.Routers;
-using SPTarkov.Server.Core.Servers;
-using SPTarkov.Server.Core.Services.Mod;
 using SPTarkov.Server.Core.Utils;
-using System.Reflection;
-using WTTServerCommonLib.Services;
-using Painter;
 using Path = System.IO.Path;
+using Range = SemanticVersioning.Range;
+using Version = SemanticVersioning.Version;
 
 namespace Painter;
 
-// This record holds the various properties for your mod
-public record ModMetadata : AbstractModMetadata
+public record ModMetadata : IModMetadata
 {
-    public override string ModGuid { get; init; } = "com.emilanderss0n.painter";
-    public override string Name { get; init; } = "Painter";
-    public override string Author { get; init; } = "MoxoPixel";
-    public override List<string>? Contributors { get; init; } = ["Jayoh"];
-    public override SemanticVersioning.Version Version { get; init; } = new("2.1.0");
-    public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.8");
-    public override List<string>? Incompatibilities { get; init; } = null;
-    public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; }
-    public override string? Url { get; init; } = "https://github.com/sp-tarkov/server-mod-examples";
-    public override bool? IsBundleMod { get; init; } = false;
-    public override string? License { get; init; } = "MIT";
+    public string ModGuid { get; init; } = "jayoh99.painter.4.0";
+    public string Name { get; init; } = "Painter";
+    public string Author { get; init; } = "MoxoPixel & Jayoh";
+    public List<string>? Contributors { get; init; } = ["Jayoh"];
+    public Version Version { get; init; } = new("2.0.0");
+    public Range SptVersion { get; init; } = new("~4.1.5");
+    public List<string>? Incompatibilities { get; init; }
+    public Dictionary<string, Range>? ModDependencies { get; init; } = new() { ["com.wtt.commonlib"] = new Range("~3.0.0") };
+    public string? Url { get; init; } = "https://github.com/emilanderss0n/Painter";
+    public string License { get; init; } = "MIT";
+    public bool HasPrepatcher { get; init; }
 }
 
-/// <summary>
-/// Feel free to use this as a base for your mod
-/// </summary>
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 2)]
+[Injectable(InjectionType.Singleton, TypePriority = OnLoadOrder.Preload + 1)]
 public class AddTraderWithAssortJson(
+    ISptLogger<AddTraderWithAssortJson> logger,
     ModHelper modHelper,
     ImageRouter imageRouter,
-    ConfigServer configServer,
+    TraderConfig traderConfig,
+    RagfairConfig ragfairConfig,
     TimeUtil timeUtil,
     WTTServerCommonLib.WTTServerCommonLib wttCommon,
-    AddCustomTraderHelper AddCustomTraderHelper // This is a custom class we add for this mod, we made it injectable so it can be accessed like other classes here
-)
-    : IOnLoad
+    AddCustomTraderHelper traderHelper
+) : IOnLoad
 {
-    private readonly TraderConfig _traderConfig = configServer.GetConfig<TraderConfig>();
-    private readonly RagfairConfig _ragfairConfig = configServer.GetConfig<RagfairConfig>();
-
-
-
-    public async Task OnLoad()
+    public async Task OnLoadAsync(CancellationToken cancellationToken)
     {
+        cancellationToken.ThrowIfCancellationRequested();
 
-        // A path to the mods files we use below
-        var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
-        // A relative path to the trader icon to show
-        var traderImagePath = Path.Combine(pathToMod, "data/Painter.png");
-        // The base json containing trader settings we will add to the server
-        var traderBase = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "data/base.json");
-        // Create a helper class and use it to register our traders image/icon + set its stock refresh time
+        var assembly = Assembly.GetExecutingAssembly();
+        var pathToMod = modHelper.GetAbsolutePathToModFolder(assembly);
+        var traderImagePath = Path.Combine(pathToMod, "data", "painter.png");
+        var traderBase = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, Path.Combine("data", "base.json"));
+
+        // Register the trader icon and stock refresh time
         imageRouter.AddRoute(traderBase.Avatar.Replace(".png", ""), traderImagePath);
-        AddCustomTraderHelper.SetTraderUpdateTime(_traderConfig, traderBase, timeUtil.GetHoursAsSeconds(1), timeUtil.GetHoursAsSeconds(2));
-        // Add our trader to the config file, this lets it be seen by the flea market
-        _ragfairConfig.Traders.TryAdd(traderBase.Id, true);
-        // An 'assort' is the term used to describe the offers a trader sells, it has 3 parts to an assort
-        AddCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase);
-        // Add localisation text for our trader to the database so it shows to people playing in different languages
-        AddCustomTraderHelper.AddTraderToLocales(traderBase, "Painter", "Painter is a trader who sells unique weapon mods and gear. Also painted weapon parts (incl. whole weapons).);
-        // Get the assort data from JSON
-        var assort = modHelper.GetJsonDataFromFile<TraderAssort>(pathToMod, "data/assort.json");
-        // Save the data we loaded above into the trader we've made
-        AddCustomTraderHelper.OverwriteTraderAssort(traderBase.Id, assort);
-        // Send back a success to the server to say our trader is good to go
-        Assembly assembly = Assembly.GetExecutingAssembly();
-        // Use WTT-CommonLib services
+        traderHelper.SetTraderUpdateTime(traderConfig, traderBase, timeUtil.GetHoursAsSeconds(1), timeUtil.GetHoursAsSeconds(2));
+
+        // Lets the trader's offers be seen on the flea market
+        ragfairConfig.Traders.TryAdd(traderBase.Id, true);
+
+        traderHelper.AddTraderWithEmptyAssortToDb(traderBase);
+        traderHelper.AddTraderToLocales(traderBase, "Painter", "Painter is a trader who sells unique weapon mods and gear. Also painted weapon parts (incl. whole weapons).");
+
+        var assort = modHelper.GetJsonDataFromFile<TraderAssort>(pathToMod, Path.Combine("data", "assort.json"));
+        traderHelper.OverwriteTraderAssort(traderBase.Id, assort);
+
+        // Custom content is loaded through WTT-CommonLib
         await wttCommon.CustomQuestService.CreateCustomQuests(assembly);
+        cancellationToken.ThrowIfCancellationRequested();
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
+        cancellationToken.ThrowIfCancellationRequested();
         await wttCommon.CustomWeaponPresetService.CreateCustomWeaponPresets(assembly);
+        cancellationToken.ThrowIfCancellationRequested();
+        await wttCommon.CustomClothingService.CreateCustomClothing(assembly);
+
+        logger.Success("[Painter] SPT 4.1.5 port loaded successfully.");
     }
 }

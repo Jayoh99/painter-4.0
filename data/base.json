@@ -48,9 +48,9 @@
         "exchange_price_coef": 0,
         "heal_price_coef": 0,
         "insurance_price_coef": 0,
-        "minLevel": 9,
-        "minSalesSum": 500000,
-        "minStanding": 0.08,
+        "minLevel": 2,
+        "minSalesSum": 0,
+        "minStanding": 0,
         "repair_price_coef": 0
       },
       {
@@ -58,9 +58,9 @@
         "exchange_price_coef": 0,
         "heal_price_coef": 0,
         "insurance_price_coef": 0,
-        "minLevel": 18,
-        "minSalesSum": 1300000,
-        "minStanding": 0.16,
+        "minLevel": 3,
+        "minSalesSum": 0,
+        "minStanding": 0,
         "repair_price_coef": 0
       },
       {
@@ -68,9 +68,9 @@
         "exchange_price_coef": 0,
         "heal_price_coef": 0,
         "insurance_price_coef": 0,
-        "minLevel": 30,
-        "minSalesSum": 3000000,
-        "minStanding": 0.22,
+        "minLevel": 4,
+        "minSalesSum": 0,
+        "minStanding": 0,
         "repair_price_coef": 0
       }
     ],

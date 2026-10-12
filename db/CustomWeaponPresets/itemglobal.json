@@ -1,0 +1,721 @@
+{
+  "675b110ff86fb085802cc243": {
+    "_changeWeaponName": false,
+    "_encyclopedia": "672e2e75a23a16d355754ef6",
+    "_id": "675b110ff86fb085802cc243",
+    "_items": [
+      {
+        "_id": "675b11167a9841d92bee9617",
+        "_tpl": "672e2e75a23a16d355754ef6"
+      },
+      {
+        "_id": "675b11587bfb4cf6135ee8e1",
+        "_tpl": "65733312ca0ca984940a2d53",
+        "parentId": "675b11167a9841d92bee9617",
+        "slotId": "Soft_armor_front"
+      },
+      {
+        "_id": "675b115c39eb2ba492088c32",
+        "_tpl": "657333232cc8dfad2c0a3d97",
+        "parentId": "675b11167a9841d92bee9617",
+        "slotId": "Soft_armor_back"
+      },
+      {
+        "_id": "675b11620dc1d18e56d72d8e",
+        "_tpl": "657333302cc8dfad2c0a3d9b",
+        "parentId": "675b11167a9841d92bee9617",
+        "slotId": "Soft_armor_left"
+      },
+      {
+        "_id": "675b116404638666ef834fae",
+        "_tpl": "6573333eca0ca984940a2d57",
+        "parentId": "675b11167a9841d92bee9617",
+        "slotId": "soft_armor_right"
+      },
+      {
+        "_id": "675b1165644d85f902ac4d93",
+        "_tpl": "6573334aca0ca984940a2d5b",
+        "parentId": "675b11167a9841d92bee9617",
+        "slotId": "Collar"
+      },
+      {
+        "_id": "675b116689b44998f3f79afc",
+        "_tpl": "65733375b7a8d286530e3dd7",
+        "parentId": "675b11167a9841d92bee9617",
+        "slotId": "Shoulder_l"
+      },
+      {
+        "_id": "675b1167d22be0c7a6eadd27",
+        "_tpl": "6573337f2cc8dfad2c0a3da7",
+        "parentId": "675b11167a9841d92bee9617",
+        "slotId": "Shoulder_r"
+      },
+      {
+        "_id": "675b1170d4e8be2d159869cd",
+        "_tpl": "6570e90b3a5689d85f08db97",
+        "parentId": "675b11167a9841d92bee9617",
+        "slotId": "Groin"
+      }
+    ],
+    "_name": "PARACLETE APC Standard",
+    "_parent": "675b11167a9841d92bee9617",
+    "_type": "Preset"
+  },
+"675b11dd195b590a69602b84": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e75be2ea9998a388b8b",
+  "_id": "675b11dd195b590a69602b84",
+  "_items": [
+    {
+      "_id": "675b11e7e419221a9a3a7a98",
+      "_tpl": "672e2e75be2ea9998a388b8b"
+    },
+    {
+      "_id": "675b1212efc044a2bc167a71",
+      "_tpl": "65733312ca0ca984940a2d53",
+      "parentId": "675b11e7e419221a9a3a7a98",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "675b1213302c897325bef4ef",
+      "_tpl": "657333232cc8dfad2c0a3d97",
+      "parentId": "675b11e7e419221a9a3a7a98",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "675b1215f2c3111eeef2a93d",
+      "_tpl": "657333302cc8dfad2c0a3d9b",
+      "parentId": "675b11e7e419221a9a3a7a98",
+      "slotId": "Soft_armor_left"
+    },
+    {
+      "_id": "675b121621e6b5ce66092d98",
+      "_tpl": "6573333eca0ca984940a2d57",
+      "parentId": "675b11e7e419221a9a3a7a98",
+      "slotId": "soft_armor_right"
+    },
+    {
+      "_id": "675b12179b506ea0b115951d",
+      "_tpl": "6573334aca0ca984940a2d5b",
+      "parentId": "675b11e7e419221a9a3a7a98",
+      "slotId": "Collar"
+    },
+    {
+      "_id": "675b1218ebb1253505035745",
+      "_tpl": "65733375b7a8d286530e3dd7",
+      "parentId": "675b11e7e419221a9a3a7a98",
+      "slotId": "Shoulder_l"
+    },
+    {
+      "_id": "675b121ac2f6a748d452707c",
+      "_tpl": "6573337f2cc8dfad2c0a3da7",
+      "parentId": "675b11e7e419221a9a3a7a98",
+      "slotId": "Shoulder_r"
+    },
+    {
+      "_id": "675b1222e464ef08cca68cd4",
+      "_tpl": "6570e90b3a5689d85f08db97",
+      "parentId": "675b11e7e419221a9a3a7a98",
+      "slotId": "Groin"
+    }
+  ],
+  "_name": "PARACLETE APC (Multicam) Standard",
+  "_parent": "675b11e7e419221a9a3a7a98",
+  "_type": "Preset"
+},
+"675b140b8d5130e0a51e4cf9": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e75aedb36663267e181",
+  "_id": "675b140b8d5130e0a51e4cf9",
+  "_items": [
+    {
+      "_id": "675b141108897fe274439a5c",
+      "_tpl": "672e2e75aedb36663267e181"
+    },
+    {
+      "_id": "675b148c20c3e35e0281ac73",
+      "_tpl": "6571199565daf6aa960c9b10",
+      "parentId": "675b141108897fe274439a5c",
+      "slotId": "Helmet_top"
+    },
+    {
+      "_id": "675b148dad2718330fa5b606",
+      "_tpl": "657119d49eb8c145180dbb95",
+      "parentId": "675b141108897fe274439a5c",
+      "slotId": "Helmet_back"
+    },
+    {
+      "_id": "675b148e6251cd6b6dbd0a79",
+      "_tpl": "657119fea330b8c9060f7afc",
+      "parentId": "675b141108897fe274439a5c",
+      "slotId": "Helmet_ears"
+    }
+  ],
+  "_name": "Classic US Helmet Standard",
+  "_parent": "675b141108897fe274439a5c",
+  "_type": "Preset"
+},
+"675b14df5e04250ebf13c668": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e75e12417d2656e8974",
+  "_id": "675b14df5e04250ebf13c668",
+  "_items": [
+    {
+      "_id": "675b15099c76faa6c33fcfda",
+      "_tpl": "672e2e75e12417d2656e8974"
+    },
+    {
+      "_id": "675b15190ae1796e7081621c",
+      "_tpl": "6571199565daf6aa960c9b10",
+      "parentId": "675b15099c76faa6c33fcfda",
+      "slotId": "Helmet_top"
+    },
+    {
+      "_id": "675b15184955ca773d7baf90",
+      "_tpl": "657119d49eb8c145180dbb95",
+      "parentId": "675b15099c76faa6c33fcfda",
+      "slotId": "Helmet_back"
+    },
+    {
+      "_id": "675b151771bd84ec84bcc4c6",
+      "_tpl": "657119fea330b8c9060f7afc",
+      "parentId": "675b15099c76faa6c33fcfda",
+      "slotId": "Helmet_ears"
+    }
+  ],
+  "_name": "M1 Vietnam Helmet Standard",
+  "_parent": "675b15099c76faa6c33fcfda",
+  "_type": "Preset"
+},
+"675b16043a7f45b59ea24381": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e75dbf780f902fd6d68",
+  "_id": "675b16043a7f45b59ea24381",
+  "_items": [
+    {
+      "_id": "675b160bd7a342b81e5974c2",
+      "_tpl": "672e2e75dbf780f902fd6d68"
+    },
+    {
+      "_id": "675b16131f6284d795ae03b7",
+      "_tpl": "6575ef599c7cad336508e453",
+      "parentId": "675b160bd7a342b81e5974c2",
+      "slotId": "soft_armor_front"
+    },
+    {
+      "_id": "675b161a92c507e43d186bf5",
+      "_tpl": "6575ef6bf6a13a7b7100b093",
+      "parentId": "675b160bd7a342b81e5974c2",
+      "slotId": "soft_armor_back"
+    },
+    {
+      "_id": "675b1621e8439d5a70bc26f4",
+      "_tpl": "6575ef78da698a4e980677eb",
+      "parentId": "675b160bd7a342b81e5974c2",
+      "slotId": "soft_armor_left"
+    },
+    {
+      "_id": "675b1628c15a7649b3e208df",
+      "_tpl": "6575ef7f9c7cad336508e457",
+      "parentId": "675b160bd7a342b81e5974c2",
+      "slotId": "soft_armor_right"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b160bd7a342b81e5974c2",
+  "_type": "Preset"
+},
+"675b16354e91c8a720df3b62": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e758c2bcbf1b2421359",
+  "_id": "675b16354e91c8a720df3b62",
+  "_items": [
+    {
+      "_id": "675b163c92d5e7814a60bf23",
+      "_tpl": "672e2e758c2bcbf1b2421359"
+    },
+    {
+      "_id": "675b1643a7e2195c80d36f41",
+      "_tpl": "6575ef599c7cad336508e453",
+      "parentId": "675b163c92d5e7814a60bf23",
+      "slotId": "soft_armor_front"
+    },
+    {
+      "_id": "675b164a31f8c6029de754b7",
+      "_tpl": "6575ef6bf6a13a7b7100b093",
+      "parentId": "675b163c92d5e7814a60bf23",
+      "slotId": "soft_armor_back"
+    },
+    {
+      "_id": "675b1651d6a48370be2f9c58",
+      "_tpl": "6575ef78da698a4e980677eb",
+      "parentId": "675b163c92d5e7814a60bf23",
+      "slotId": "soft_armor_left"
+    },
+    {
+      "_id": "675b1658f3c7612a49be80d5",
+      "_tpl": "6575ef7f9c7cad336508e457",
+      "parentId": "675b163c92d5e7814a60bf23",
+      "slotId": "soft_armor_right"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b163c92d5e7814a60bf23",
+  "_type": "Preset"
+},
+"675b16654a8d92c713ef0b46": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e755afaba52a4af5e45",
+  "_id": "675b16654a8d92c713ef0b46",
+  "_items": [
+    {
+      "_id": "675b166c81e5a2479d30bf62",
+      "_tpl": "672e2e755afaba52a4af5e45"
+    },
+    {
+      "_id": "675b1673d2a8416e90fc5b37",
+      "_tpl": "6570e83223c1f638ef0b0ede",
+      "parentId": "675b166c81e5a2479d30bf62",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "675b167a49c6e8201fd53b74",
+      "_tpl": "6570e87c23c1f638ef0b0ee2",
+      "parentId": "675b166c81e5a2479d30bf62",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "675b1681f73d2a6490be5c28",
+      "_tpl": "6570e90b3a5689d85f08db97",
+      "parentId": "675b166c81e5a2479d30bf62",
+      "slotId": "Groin"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b166c81e5a2479d30bf62",
+  "_type": "Preset"
+},
+"675b168e42c7a951d30ef6b4": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e75c5ba9aeedbced57d",
+  "_id": "675b168e42c7a951d30ef6b4",
+  "_items": [
+    {
+      "_id": "675b1695d83f2147a60ce9b2",
+      "_tpl": "672e2e75c5ba9aeedbced57d"
+    },
+    {
+      "_id": "675b169c31e8b5720fd46a93",
+      "_tpl": "6570e83223c1f638ef0b0ede",
+      "parentId": "675b1695d83f2147a60ce9b2",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "675b16a349c6e8201fd53b74",
+      "_tpl": "6570e87c23c1f638ef0b0ee2",
+      "parentId": "675b1695d83f2147a60ce9b2",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "675b16aa7f3d2a6490be5c28",
+      "_tpl": "6570e90b3a5689d85f08db97",
+      "parentId": "675b1695d83f2147a60ce9b2",
+      "slotId": "Groin"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b1695d83f2147a60ce9b2",
+  "_type": "Preset"
+},
+"675b16b74e92c831d60af5e7": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e75ed6ad7cc5028734f",
+  "_id": "675b16b74e92c831d60af5e7",
+  "_items": [
+    {
+      "_id": "675b16be83d5a2479e10cf62",
+      "_tpl": "672e2e75ed6ad7cc5028734f"
+    },
+    {
+      "_id": "675b16c531f8e6920ad47b83",
+      "_tpl": "6575bc88c6700bd6b40e8a57",
+      "parentId": "675b16be83d5a2479e10cf62",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "675b16cc49a7d5201fe63b94",
+      "_tpl": "6575bca0dc9932aed601c5d7",
+      "parentId": "675b16be83d5a2479e10cf62",
+      "slotId": "Soft_armor_back"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b16be83d5a2479e10cf62",
+  "_type": "Preset"
+},
+"675b16d94a82c731e50bf6d2": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e75afb25b57bd1d1455",
+  "_id": "675b16d94a82c731e50bf6d2",
+  "_items": [
+    {
+      "_id": "675b16e083d5a2479c10ef63",
+      "_tpl": "672e2e75afb25b57bd1d1455"
+    },
+    {
+      "_id": "675b16e731f8c6920ad54b82",
+      "_tpl": "6570e83223c1f638ef0b0ede",
+      "parentId": "675b16e083d5a2479c10ef63",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "675b16ee49a7d5201fb63c94",
+      "_tpl": "6570e87c23c1f638ef0b0ee2",
+      "parentId": "675b16e083d5a2479c10ef63",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "675b16f57c3e2a6490bd5e28",
+      "_tpl": "6570e90b3a5689d85f08db97",
+      "parentId": "675b16e083d5a2479c10ef63",
+      "slotId": "Groin"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b16e083d5a2479c10ef63",
+  "_type": "Preset"
+},
+"675b17024d91c832e60af7b5": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e7531ffa75ea676c3ea",
+  "_id": "675b17024d91c832e60af7b5",
+  "_items": [
+    {
+      "_id": "675b170983d5a2479e10cf64",
+      "_tpl": "672e2e7531ffa75ea676c3ea"
+    },
+    {
+      "_id": "675b171031f8c6920ad54b83",
+      "_tpl": "6570e83223c1f638ef0b0ede",
+      "parentId": "675b170983d5a2479e10cf64",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "675b171749a7d5201fb63c95",
+      "_tpl": "6570e87c23c1f638ef0b0ee2",
+      "parentId": "675b170983d5a2479e10cf64",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "675b171e7c3e2a6490bd5e29",
+      "_tpl": "6570e90b3a5689d85f08db97",
+      "parentId": "675b170983d5a2479e10cf64",
+      "slotId": "Groin"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b170983d5a2479e10cf64",
+  "_type": "Preset"
+},
+"675b172b4e92c831d60af7e8": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e75fa61ef193bdbd7e6",
+  "_id": "675b172b4e92c831d60af7e8",
+  "_items": [
+    {
+      "_id": "675b173283d5a2479e10cf65",
+      "_tpl": "672e2e75fa61ef193bdbd7e6"
+    },
+    {
+      "_id": "675b173931f8c6920ad54b84",
+      "_tpl": "6570e83223c1f638ef0b0ede",
+      "parentId": "675b173283d5a2479e10cf65",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "675b174049a7d5201fb63c96",
+      "_tpl": "6570e87c23c1f638ef0b0ee2",
+      "parentId": "675b173283d5a2479e10cf65",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "675b17477c3e2a6490bd5e30",
+      "_tpl": "6570e90b3a5689d85f08db97",
+      "parentId": "675b173283d5a2479e10cf65",
+      "slotId": "Groin"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b173283d5a2479e10cf65",
+  "_type": "Preset"
+},
+"675b17544e92c831d60af8f1": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "67b8d6cd220640e6846aed85",
+  "_id": "675b17544e92c831d60af8f1",
+  "_items": [
+    {
+      "_id": "675b175b83d5a2479e10cf66",
+      "_tpl": "67b8d6cd220640e6846aed85"
+    },
+    {
+      "_id": "675b176231f8c6920ad54b85",
+      "_tpl": "6570e83223c1f638ef0b0ede",
+      "parentId": "675b175b83d5a2479e10cf66",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "675b176949a7d5201fb63c97",
+      "_tpl": "6570e87c23c1f638ef0b0ee2",
+      "parentId": "675b175b83d5a2479e10cf66",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "675b17707c3e2a6490bd5e31",
+      "_tpl": "6570e90b3a5689d85f08db97",
+      "parentId": "675b175b83d5a2479e10cf66",
+      "slotId": "Groin"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b175b83d5a2479e10cf66",
+  "_type": "Preset"
+},
+"675b177d4e92c831d60af9a2": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e753c97527a5186e73f",
+  "_id": "675b177d4e92c831d60af9a2",
+  "_items": [
+    {
+      "_id": "675b178483d5a2479e10cf67",
+      "_tpl": "672e2e753c97527a5186e73f"
+    },
+    {
+      "_id": "675b178b31f8c6920ad54b86",
+      "_tpl": "65711b07a330b8c9060f7b01",
+      "parentId": "675b178483d5a2479e10cf67",
+      "slotId": "Helmet_top"
+    },
+    {
+      "_id": "675b179249a7d5201fb63c98",
+      "_tpl": "65711b489eb8c145180dbb9d",
+      "parentId": "675b178483d5a2479e10cf67",
+      "slotId": "Helmet_back"
+    },
+    {
+      "_id": "675b17997c3e2a6490bd5e32",
+      "_tpl": "65711b9b65daf6aa960c9b1b",
+      "parentId": "675b178483d5a2479e10cf67",
+      "slotId": "helmet_eyes"
+    },
+    {
+      "_id": "675b17a04d8c3162ef907b54",
+      "_tpl": "65711bc79eb8c145180dbba1",
+      "parentId": "675b178483d5a2479e10cf67",
+      "slotId": "helmet_jaw"
+    },
+    {
+      "_id": "675b17a731e8c6920ad54b87",
+      "_tpl": "65711b706d197c216005b31c",
+      "parentId": "675b178483d5a2479e10cf67",
+      "slotId": "Helmet_ears"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b178483d5a2479e10cf67",
+  "_type": "Preset"
+},
+"675b17b44e92c831d60afa53": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e75e97f1888187ed37d",
+  "_id": "675b17b44e92c831d60afa53",
+  "_items": [
+    {
+      "_id": "675b17bb83d5a2479e10cf68",
+      "_tpl": "672e2e75e97f1888187ed37d"
+    },
+    {
+      "_id": "675b17c231f8c6920ad54b88",
+      "_tpl": "65711b07a330b8c9060f7b01",
+      "parentId": "675b17bb83d5a2479e10cf68",
+      "slotId": "Helmet_top"
+    },
+    {
+      "_id": "675b17c949a7d5201fb63c99",
+      "_tpl": "65711b489eb8c145180dbb9d",
+      "parentId": "675b17bb83d5a2479e10cf68",
+      "slotId": "Helmet_back"
+    },
+    {
+      "_id": "675b17d07c3e2a6490bd5e33",
+      "_tpl": "65711b9b65daf6aa960c9b1b",
+      "parentId": "675b17bb83d5a2479e10cf68",
+      "slotId": "helmet_eyes"
+    },
+    {
+      "_id": "675b17d74d8c3162ef907b55",
+      "_tpl": "65711bc79eb8c145180dbba1",
+      "parentId": "675b17bb83d5a2479e10cf68",
+      "slotId": "helmet_jaw"
+    },
+    {
+      "_id": "675b17de31e8c6920ad54b89",
+      "_tpl": "65711b706d197c216005b31c",
+      "parentId": "675b17bb83d5a2479e10cf68",
+      "slotId": "Helmet_ears"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b17bb83d5a2479e10cf68",
+  "_type": "Preset"
+},
+"675b17eb4e92c831d60afb64": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e754e6844af8e197b00",
+  "_id": "675b17eb4e92c831d60afb64",
+  "_items": [
+    {
+      "_id": "675b17f283d5a2479e10cf69",
+      "_tpl": "672e2e754e6844af8e197b00"
+    },
+    {
+      "_id": "675b17f931f8c6920ad54b90",
+      "_tpl": "657f8ec5f4c82973640b234c",
+      "parentId": "675b17f283d5a2479e10cf69",
+      "slotId": "Helmet_top"
+    },
+    {
+      "_id": "675b180049a7d5201fb63ca0",
+      "_tpl": "657f8f10f4c82973640b2350",
+      "parentId": "675b17f283d5a2479e10cf69",
+      "slotId": "Helmet_back"
+    },
+    {
+      "_id": "675b18077c3e2a6490bd5e34",
+      "_tpl": "657112ce22996eaf110881fb",
+      "parentId": "675b17f283d5a2479e10cf69",
+      "slotId": "Helmet_ears"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b17f283d5a2479e10cf69",
+  "_type": "Preset"
+},
+"675b18144e92c831d60afc75": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e75b14ae1b5c91474b4",
+  "_id": "675b18144e92c831d60afc75",
+  "_items": [
+    {
+      "_id": "675b181b83d5a2479e10cf70",
+      "_tpl": "672e2e75b14ae1b5c91474b4"
+    },
+    {
+      "_id": "675b182231f8c6920ad54b91",
+      "_tpl": "657f8ec5f4c82973640b234c",
+      "parentId": "675b181b83d5a2479e10cf70",
+      "slotId": "Helmet_top"
+    },
+    {
+      "_id": "675b182949a7d5201fb63ca1",
+      "_tpl": "657f8f10f4c82973640b2350",
+      "parentId": "675b181b83d5a2479e10cf70",
+      "slotId": "Helmet_back"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b181b83d5a2479e10cf70",
+  "_type": "Preset"
+},
+"675b18364e92c831d60afd86": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e7595d3b3be0daf9055",
+  "_id": "675b18364e92c831d60afd86",
+  "_items": [
+    {
+      "_id": "675b183d83d5a2479e10cf71",
+      "_tpl": "672e2e7595d3b3be0daf9055"
+    },
+    {
+      "_id": "675b184431f8c6920ad54b92",
+      "_tpl": "657f8ec5f4c82973640b234c",
+      "parentId": "675b183d83d5a2479e10cf71",
+      "slotId": "Helmet_top"
+    },
+    {
+      "_id": "675b184b49a7d5201fb63ca2",
+      "_tpl": "657f8f10f4c82973640b2350",
+      "parentId": "675b183d83d5a2479e10cf71",
+      "slotId": "Helmet_back"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b183d83d5a2479e10cf71",
+  "_type": "Preset"
+},
+"675b18584e92c831d60afe97": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e75b5b680c7ee6aa408",
+  "_id": "675b18584e92c831d60afe97",
+  "_items": [
+    {
+      "_id": "675b185f83d5a2479e10cf72",
+      "_tpl": "672e2e75b5b680c7ee6aa408"
+    },
+    {
+      "_id": "675b186631f8c6920ad54b93",
+      "_tpl": "657f8ec5f4c82973640b234c",
+      "parentId": "675b185f83d5a2479e10cf72",
+      "slotId": "Helmet_top"
+    },
+    {
+      "_id": "675b186d49a7d5201fb63ca3",
+      "_tpl": "657f8f10f4c82973640b2350",
+      "parentId": "675b185f83d5a2479e10cf72",
+      "slotId": "Helmet_back"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b185f83d5a2479e10cf72",
+  "_type": "Preset"
+},
+"675b187a4e92c831d60affa8": {
+  "_changeWeaponName": false,
+  "_encyclopedia": "672e2e75d89015cd6322030b",
+  "_id": "675b187a4e92c831d60affa8",
+  "_items": [
+    {
+      "_id": "675b188183d5a2479e10cf73",
+      "_tpl": "672e2e75d89015cd6322030b"
+    },
+    {
+      "_id": "675b188831f8c6920ad54b94",
+      "_tpl": "6551fec55d0cf82e51014288",
+      "parentId": "675b188183d5a2479e10cf73",
+      "slotId": "Helmet_top"
+    },
+    {
+      "_id": "675b188f49a7d5201fb63ca4",
+      "_tpl": "655200ba0ef76cf7be09d528",
+      "parentId": "675b188183d5a2479e10cf73",
+      "slotId": "Helmet_back"
+    },
+    {
+      "_id": "675b18967c3e2a6490bd5e35",
+      "_tpl": "65711b9b65daf6aa960c9b1b",
+      "parentId": "675b188183d5a2479e10cf73",
+      "slotId": "helmet_eyes"
+    },
+    {
+      "_id": "675b189d4d8c3162ef907b56",
+      "_tpl": "657112ce22996eaf110881fb",
+      "parentId": "675b188183d5a2479e10cf73",
+      "slotId": "Helmet_ears"
+    }
+  ],
+  "_name": "Standard",
+  "_parent": "675b188183d5a2479e10cf73",
+  "_type": "Preset"
+}
+
+}

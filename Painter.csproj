@@ -1,16 +1,22 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>2.0.0</Version>
+    <AssemblyName>Painter</AssemblyName>
+    <RootNamespace>Painter</RootNamespace>
+    <!-- Point this at your SPT install, e.g. dotnet build -p:SptPath="E:\SPT 4.1\SPT_Runtime" -->
+    <SptPath Condition="'$(SptPath)' == ''">E:\SPT 4.1\SPT_Runtime</SptPath>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SPTarkov.Common" Version="4.0.8" />
-    <PackageReference Include="SPTarkov.DI" Version="4.0.8" />
-    <PackageReference Include="SPTarkov.Server.Core" Version="4.0.8" />
-    <PackageReference Include="WTT-ServerCommonLib" Version="2.0.7" />
+    <Reference Include="SPTarkov.Common"><HintPath>$(SptPath)\SPTarkov.Common.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SPTarkov.DI"><HintPath>$(SptPath)\SPTarkov.DI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SPTarkov.Server.Core"><HintPath>$(SptPath)\SPTarkov.Server.Core.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SemanticVersioning"><HintPath>$(SptPath)\SemanticVersioning.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="WTT-ServerCommonLib"><HintPath>$(SptPath)\user\mods\WTT-ServerCommonLib\WTT-ServerCommonLib.dll</HintPath><Private>false</Private></Reference>
   </ItemGroup>
 
 </Project>

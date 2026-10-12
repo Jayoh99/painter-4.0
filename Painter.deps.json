@@ -1,180 +1,23 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v9.0",
+    "name": ".NETCoreApp,Version=v10.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v9.0": {
-      "Painter/1.0.0": {
-        "dependencies": {
-          "SPTarkov.Common": "4.0.8",
-          "SPTarkov.DI": "4.0.8",
-          "SPTarkov.Server.Core": "4.0.8",
-          "WTT-ServerCommonLib": "2.0.7"
-        },
+    ".NETCoreApp,Version=v10.0": {
+      "Painter/2.0.0": {
         "runtime": {
           "Painter.dll": {}
-        }
-      },
-      "FastCloner/3.3.16": {
-        "runtime": {
-          "lib/net8.0/FastCloner.dll": {
-            "assemblyVersion": "3.3.16.0",
-            "fileVersion": "3.3.16.0"
-          }
-        }
-      },
-      "JetBrains.Annotations/2025.2.2": {
-        "runtime": {
-          "lib/netstandard2.0/JetBrains.Annotations.dll": {
-            "assemblyVersion": "4242.42.42.42",
-            "fileVersion": "2025.2.2.0"
-          }
-        }
-      },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.9": {
-        "runtime": {
-          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.925.41916"
-          }
-        }
-      },
-      "SemanticVersioning/3.0.0": {
-        "runtime": {
-          "lib/netstandard2.0/SemanticVersioning.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
-          }
-        }
-      },
-      "SPTarkov.Common/4.0.8": {
-        "dependencies": {
-          "SemanticVersioning": "3.0.0"
-        },
-        "runtime": {
-          "lib/net9.0/SPTarkov.Common.dll": {
-            "assemblyVersion": "4.0.8.0",
-            "fileVersion": "4.0.8.0"
-          }
-        }
-      },
-      "SPTarkov.DI/4.0.8": {
-        "dependencies": {
-          "JetBrains.Annotations": "2025.2.2",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.9"
-        },
-        "runtime": {
-          "lib/net9.0/SPTarkov.DI.dll": {
-            "assemblyVersion": "4.0.8.0",
-            "fileVersion": "4.0.8.0"
-          }
-        }
-      },
-      "SPTarkov.Server.Core/4.0.8": {
-        "dependencies": {
-          "FastCloner": "3.3.16",
-          "SPTarkov.Common": "4.0.8",
-          "SPTarkov.DI": "4.0.8",
-          "System.IO.Hashing": "9.0.9"
-        },
-        "runtime": {
-          "lib/net9.0/SPTarkov.Server.Core.dll": {
-            "assemblyVersion": "4.0.8.0",
-            "fileVersion": "4.0.8.0"
-          }
-        }
-      },
-      "System.IO.Hashing/9.0.9": {
-        "runtime": {
-          "lib/net9.0/System.IO.Hashing.dll": {
-            "assemblyVersion": "9.0.0.9",
-            "fileVersion": "9.0.925.41916"
-          }
-        }
-      },
-      "WTT-ServerCommonLib/2.0.7": {
-        "dependencies": {
-          "SPTarkov.Server.Core": "4.0.8"
-        },
-        "runtime": {
-          "lib/net9.0/WTT-ServerCommonLib.dll": {
-            "assemblyVersion": "2.0.7.0",
-            "fileVersion": "2.0.7.0"
-          }
         }
       }
     }
   },
   "libraries": {
-    "Painter/1.0.0": {
+    "Painter/2.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "FastCloner/3.3.16": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-3469qHsau6KXmOnLSR7DvvId+NwXuXKAvtDoJVJMDpRRaHLT7DU8IY2G4osMAbXyUfrlbrmXGI5HrlMwQUUjow==",
-      "path": "fastcloner/3.3.16",
-      "hashPath": "fastcloner.3.3.16.nupkg.sha512"
-    },
-    "JetBrains.Annotations/2025.2.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0X56ZRizuHdrnPpgXjWV7f2tQO1FlQg5O1967OGKnI/4ZRNOK642J8L7brM1nYvrxTTU5TP1yRyXLRLaXLPQ8A==",
-      "path": "jetbrains.annotations/2025.2.2",
-      "hashPath": "jetbrains.annotations.2025.2.2.nupkg.sha512"
-    },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/hymojfWbE9AlDOa0mczR44m00Jj+T3+HZO0ZnVTI032fVycI0ZbNOVFP6kqZMcXiLSYXzR2ilcwaRi6dzeGyA==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.9",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512"
-    },
-    "SemanticVersioning/3.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-RR+8GbPQ/gjDqov/1QN1OPoUlbUruNwcL3WjWCeLw+MY7+od/ENhnkYxCfAC6rQLIu3QifaJt3kPYyP3RumqMQ==",
-      "path": "semanticversioning/3.0.0",
-      "hashPath": "semanticversioning.3.0.0.nupkg.sha512"
-    },
-    "SPTarkov.Common/4.0.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8MEL0aLlh5w/i6thlWMtoPbzLLOTNBzRu3r3kUfw/rafLvtIQloype4aAnvCre/6LIm5Ey46W6OUtBvGGqG5AQ==",
-      "path": "sptarkov.common/4.0.8",
-      "hashPath": "sptarkov.common.4.0.8.nupkg.sha512"
-    },
-    "SPTarkov.DI/4.0.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7bJ6F+1yxe8SjUU4bKBh9msDDJ0/W6ly6eU/sWhe7AIGaBus88nMpsC3KGyCTaJa/zIdgrtYVb6cHasUDef44w==",
-      "path": "sptarkov.di/4.0.8",
-      "hashPath": "sptarkov.di.4.0.8.nupkg.sha512"
-    },
-    "SPTarkov.Server.Core/4.0.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VXdIWtsm8sgc6gpEa0nYifHmrTX+L4iwSq8UjIGuadZIZvmgCxdmB35zfjKy7Uh6E3vWY4JL6PnD0r+Z/eWw3Q==",
-      "path": "sptarkov.server.core/4.0.8",
-      "hashPath": "sptarkov.server.core.4.0.8.nupkg.sha512"
-    },
-    "System.IO.Hashing/9.0.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-hcGHdlcKtox37LQZBLYJ3GdTlHx16F5tL96Rt8iaFscCAJW9IZt3asQbyuJMjcM9oyrn3Yh2454VY2fU0d/stw==",
-      "path": "system.io.hashing/9.0.9",
-      "hashPath": "system.io.hashing.9.0.9.nupkg.sha512"
-    },
-    "WTT-ServerCommonLib/2.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-atP+Vw3VC127Qkyg6+3hRGX6rwbsKD4T/9m4c+2rJGHDGNJuMJzHh/lJ5EEdej2oRmR9hQ/lQMwDDBg7CquzDA==",
-      "path": "wtt-servercommonlib/2.0.7",
-      "hashPath": "wtt-servercommonlib.2.0.7.nupkg.sha512"
     }
   }
 }
